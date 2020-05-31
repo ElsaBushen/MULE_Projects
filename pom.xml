@@ -26,15 +26,11 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-		            <uri>https://anypoint.mulesoft.com</uri>
-		            <muleVersion>4.2.1</muleVersion>
 		            <username>ElisabethB23</username>
 		            <password>Iamntdng23</password>
 		            <applicationName>mule_git</applicationName>
 		            <environment>Sandbox</environment>
-		            <properties>
-		                <key>value</key>
-		            </properties>
+		            <muleVersion>4.2.1</muleVersion>
 		        </cloudHubDeployment>
 				</configuration>
 			</plugin>
