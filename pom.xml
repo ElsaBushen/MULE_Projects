@@ -26,7 +26,7 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-		            <username>ElisabethB23</username>
+		            <userName>ElisabethB23</userName>
 		            <password>Iamntdng23</password>
 		            <applicationName>mule_git</applicationName>
 		            <environment>Sandbox</environment>
