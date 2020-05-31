@@ -25,13 +25,19 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-		  <deploymentType>cloudhub</deploymentType>
-          <muleVersion>4.2.1</muleVersion> 
-          <username>ElisabethB23</username> 
-          <password>Iamntdng23</password> 
-          <applicationName>mule_git</applicationName>
-          <environment>Sandbox</environment> 
-		  </configuration>
+   <cloudHubDeployment>
+      <uri>${anypoint.uri}</uri>
+      <muleVersion>4.2.1</muleVersion>
+      <businessGroup>${businessGroup}</businessGroup>
+      <username>ElisabethB23</username>
+      <password>Iamntdng23</password>
+      <applicationName>mule_git</applicationName>
+      <environment>Sandbox</environment>
+      <region>us-east</region>
+      <workers>1</workers>
+      <workerType>Micro</workerType>
+   </cloudHubDeployment>
+</configuration>
 		</plugin>
 		</plugins>
 	</build>
