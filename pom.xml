@@ -28,7 +28,7 @@
 				<cloudHubDeployment>
 		            <username>ElisabethB23</username>
 		            <password>Iamntdng23</password>
-		            <applicationName>mule_git</applicationName>
+		            <applicationName>WorldTimezone-Service</applicationName>
 		            <environment>Sandbox</environment>
 		            <muleVersion>4.2.1</muleVersion>
 		        </cloudHubDeployment>
